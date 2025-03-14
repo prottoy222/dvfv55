@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+.progress {
+    height: 20px;
+    background: #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    height: 100%;
+    background: #4caf50;
+    width: 0%;
+    transition: width 0.5s;
+}
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: white;
+}
+button:hover {
+    background: #0056b3;
+}
